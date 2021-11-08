@@ -1,6 +1,7 @@
 <script>
 	import Contact from './Contact.svelte';
 	import Madlibs from './Madlibs.svelte';
+	import Age from './Age.svelte';
 	let name = 'Oliver';
 	let nick = 'zlby';
 	let user = '';
@@ -24,10 +25,14 @@
 <br>
 <br>
 <Contact/>
+<!-- <br>
+<br>
+<br>
+<Madlibs/> -->
 <br>
 <br>
 <br>
-<Madlibs/>
+<Age/>
 
 <style>
 
