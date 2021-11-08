@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+body{
+    background-color: #2b2e38;
+    color: white;
+    margin: 100px;
+    font-family: 'Work Sans';
+}
+
+*{
+    margin: 0;
+}
+
+a{
+    color: #ffffff;
+    background-color: none;
+}
+
+a{
+    color: #299fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+}
+
+div{
+    margin-bottom: 50px;
+}
+
+code{
+    background-color: hsl(227, 14%, 12%);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ff006a;
+}
+
+.body {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+
+input{
+	background-color:  rgba(255, 255, 255, 0);
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px;
+	color: white;
+	padding: 5px;
+	padding-left: 7px;
+	margin-top: 5px;
+	border-radius: 5px;
+	font-family: 'Roboto Mono';
+}
+
+button{
+	background-color:  rgba(255, 255, 255, 0);
+	border-style: solid;
+	border-color: #fff;
+	border-width: 1px;
+	color: white;
+	padding: 5px;
+	padding-left: 7px;
+	margin-top: 5px;
+	border-radius: 5px;
+	font-family: 'Roboto Mono';
+}
+
+button:hover{
+    background-color:  #fff;
+    color: #2b2e38;
+    cursor: pointer;
+}
