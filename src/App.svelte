@@ -52,7 +52,8 @@
 	{/if}
 	<input bind:value={user} placeholder="your name"> -->
 	<div class="footer">
-		Made with <i class="fa fa-heart"></i> by zlby
+		Made with <i class="fa fa-heart"></i> by zlby <br>
+		Source code <a href="https://github.com/zlbyapi/personal">on github</a>
 	</div>
 </main>
 <!-- <br>
