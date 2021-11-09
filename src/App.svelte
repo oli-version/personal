@@ -8,7 +8,7 @@
 	let name = 'Oliver';
 	let nick = 'zlby';
 	let user = '';
-	let setName = true;
+	let setName = false;
 	let target = '_blank'
 
 	function setN() {
