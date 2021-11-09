@@ -4,6 +4,7 @@
     let temp = '';
     let emotion = '';
     let submitted = false;
+    
 
     function submit() {
         submitted = true

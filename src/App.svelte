@@ -2,9 +2,18 @@
 	import Contact from './Contact.svelte';
 	import Madlibs from './Madlibs.svelte';
 	import Age from './Age.svelte';
+	import About from './About.svelte';
+	import Hobies from './Hobies.svelte';
+	import Server from './Server.svelte';
 	let name = 'Oliver';
 	let nick = 'zlby';
 	let user = '';
+	let setName = true;
+	let target = '_blank'
+
+	function setN() {
+		setName = true;
+	}
 </script>
 
 <svelte:head>
@@ -12,27 +21,52 @@
 </svelte:head>
 
 <main>
-	{#if user === ''}
+	{#if setName === true}
+		<h1>Welcome to my wierd world</h1>
+		<p>Hello {user}, welcome to my website. I often remake my website every ½ month,<br>but I'm hoping this one will stay.
+		The reason this one should stay is because<br>it is made with <a href="https://svelte.dev">svelte</a>. On this website
+		you can learn about me and my interests.
+		</p>
+		<br>
+		<br>
+		<About/>
+		<br>
+		<br>
+		<Hobies/>
+		<br>
+		<br>
+		<Server/>
+	{:else if setName === false}
+		<center>
+			<p>Your Name:</p>
+			<input type="text" placeholder="name" bind:value={user}>
+			<br><button style="width: 175px;" on:click={setN}>Continue</button>
+		</center>
+	{/if}
+	<!-- {#if user === ''}
 		<h1>Let me introduce myself</h1>
 		<p>Hello [your name], my name is {name}, but you might know me as {nick}</p>
 	{:else if user !== ''}
 		<h1>Let me introduce myself</h1>
 		<p>Hello {user}, my name is {name}, but you might know me as {nick}</p>
 	{/if}
-	<input bind:value={user} placeholder="your name">
+	<input bind:value={user} placeholder="your name"> -->
+	<div class="footer">
+		Made with <i class="fa fa-heart"></i> by zlby
+	</div>
 </main>
-<br>
-<br>
-<br>
-<Contact/>
 <!-- <br>
 <br>
 <br>
-<Madlibs/> -->
+<Contact/>
 <br>
 <br>
 <br>
-<Age/>
+<Madlibs/>
+<br>
+<br>
+<br>
+<Age/> -->
 
 <style>
 

@@ -83,3 +83,33 @@ button:hover{
     color: #2b2e38;
     cursor: pointer;
 }
+
+span.tag{
+    background-color: #fff;
+    color: #2b2e38;
+    padding: 4px;
+    border-radius: 4px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+p.hint{
+    color: #999;
+    font-size: 15px;
+}
+
+p.hint::before{
+    color: #ff006a;
+    content: '*';
+}
+
+div.footer{
+    background-color: #1c1d24;
+    width: 100%;
+    margin-left: -100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    bottom: -50px;
+    position: fixed;
+}

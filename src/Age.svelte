@@ -3,6 +3,7 @@
     let n = '';
     let min = 1930
     let buttons = true
+    let target = '_blank'
 
     function hideButtons() {
         buttons = false
@@ -16,7 +17,7 @@
 <main>
     <h1>Age calculator</h1>
     <p>Enter in your birth year and let the magic happen</p>
-    <p>This is a rippoff of <a href="https://age.vercel.app">age.versel.app</a> by <a href="https://twitter.com/onsclom">@onsclom</a></p>
+    <p>This is a rippoff of <a {target} href="https://age.vercel.app">age.versel.app</a> by <a {target} href="https://twitter.com/onsclom">@onsclom</a></p>
     <br>
     <input type="number" {min} max={year - 1} bind:value={n} placeholder="birth year">
     {#if n === ''}
