@@ -21,7 +21,10 @@
 </svelte:head>
 
 <main>
-	{#if setName === true}
+	<center>
+		<h1>Under Construction</h1>
+	</center>
+	<!-- {#if setName === true}
 		<h1>Welcome to my wierd world</h1>
 		<p>Hello {user}, welcome to my website. I often remake my website every ½ month,<br>but I'm hoping this one will stay.
 		The reason this one should stay is because<br>it is made with <a href="https://svelte.dev">svelte</a>. On this website
@@ -43,18 +46,18 @@
 			<br><button style="width: 175px;" on:click={setN}>Continue</button>
 		</center>
 	{/if}
-	<!-- {#if user === ''}
+	{#if user === ''}
 		<h1>Let me introduce myself</h1>
 		<p>Hello [your name], my name is {name}, but you might know me as {nick}</p>
 	{:else if user !== ''}
 		<h1>Let me introduce myself</h1>
 		<p>Hello {user}, my name is {name}, but you might know me as {nick}</p>
 	{/if}
-	<input bind:value={user} placeholder="your name"> -->
+	<input bind:value={user} placeholder="your name">
 	<div class="footer">
 		Made with <i class="fa fa-heart"></i> by zlby <br>
 		Source code <a href="https://github.com/zlbyapi/personal">on github</a>
-	</div>
+	</div>-->
 </main>
 <!-- <br>
 <br>
