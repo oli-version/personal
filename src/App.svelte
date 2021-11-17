@@ -22,7 +22,7 @@
 
 <main>
 	<center>
-		<h1>Under Construction</h1>
+		<h1>zlby.me v2 - Under Construction</h1>
 	</center>
 	<!-- {#if setName === true}
 		<h1>Welcome to my wierd world</h1>
